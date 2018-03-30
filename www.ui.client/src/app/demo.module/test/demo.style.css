@@ -1,0 +1,17 @@
+.input-valid{
+    color: black;
+    font-weight: normal;
+}
+
+.input-invalid{
+    color: red;
+    font-weight: bold;
+}
+.demo-page-result h2{
+font-family: 'Courier New', Courier, monospace;
+font-weight: 600;
+}
+.demo-page-result ul li{
+    padding: 10px;
+    font-weight: 300;
+}

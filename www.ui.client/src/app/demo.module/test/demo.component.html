@@ -1,0 +1,16 @@
+<div class="demo-page-container">
+<div>
+  <input  [(ngModel)]="info.num1"  [ngClass]="{'input-valid': num1State, 'input-invalid': !num1State}" class="" (keyup)='isNumeric($event)'  >
+    <input  [(ngModel)]="info.num2" [ngClass]="{'input-valid': num2State, 'input-invalid': !num2State}" class="" (keyup)='isNumeric($event)' >
+    <button (click)="save()"  [disabled]="!IsValidInput" >Calculation</button>
+    <p >{{info.num1}}</p>
+</div>
+<div class="demo-page-result">
+  <h2>Data is here ::</h2>
+  <ul>
+    <li *ngFor="let item of infoData;">
+      {{item.num1}} X {{item.num2}} = {{item.result}}
+    </li>
+  </ul>
+</div>
+</div>
