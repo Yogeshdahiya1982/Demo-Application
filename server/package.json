@@ -19,7 +19,7 @@
     "express-session": "^1.11.3",
     "formidable": "^1.1.1",
     "fs": "0.0.1-security",
-    "morgan": "~1.6.1",
+    "morgan": "~1.9.1",
     "mysql": "^2.13.0",
     "passport": "^0.3.0",
     "passport-auth0": "^0.5.0",
